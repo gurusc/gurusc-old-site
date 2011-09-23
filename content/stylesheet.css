@@ -42,9 +42,9 @@ a:hover {
 
 #main p {
   margin: 20px 0;
-  
+
   font-size: 15px;
-  
+
   line-height: 20px;
 }
 
@@ -54,7 +54,7 @@ a:hover {
 
 #main li {
   font-size: 15px;
-  
+
   line-height: 20px;
 }
 
@@ -98,4 +98,16 @@ a:hover {
   font-size: 14px;
 
   line-height: 20px;
+}
+
+.talk {
+  padding-top: 20px;
+}
+
+hr {
+  margin-top: 5px;
+}
+
+h3 {
+  margin-top: 20px;
 }
