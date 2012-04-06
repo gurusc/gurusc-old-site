@@ -42,7 +42,7 @@ end
 # Prepares the deployment environment
 #
 def prepare!
-  %x[git checkout master]
+  #%x[git checkout master]
   unless %x[git status] =~ /nothing to commit \(working directory clean\)/
     puts "Please commit your changes on the master branch before deploying!"
     exit 1
