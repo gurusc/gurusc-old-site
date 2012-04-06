@@ -15,3 +15,9 @@ excellent [nanoc3](http://nanoc.stoneship.org) static site generator.
 * `nanoc compile`
 
 * `nanoc view` (to run the webrick)
+
+
+## Deploy
+
+* git remote add heroku "HEROKU_URL"
+* rake deploy
