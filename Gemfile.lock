@@ -1,0 +1,24 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    adsf (1.1.1)
+      rack (>= 1.0.0)
+    cri (2.2.1)
+    mime-types (1.18)
+    nanoc (3.3.2)
+      cri (~> 2.2)
+    rack (1.4.1)
+    rack-contrib (1.1.0)
+      rack (>= 0.9.1)
+    rack-rewrite (1.2.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  adsf
+  mime-types
+  nanoc
+  rack
+  rack-contrib
+  rack-rewrite
