@@ -42,7 +42,7 @@ end
 # Prepares the deployment environment
 #
 def prepare!
-  #%x[git checkout master]
+  %x[git checkout master]
   unless %x[git status] =~ /nothing to commit \(working directory clean\)/
     puts "Please commit your changes on the master branch before deploying!"
     exit 1
@@ -76,5 +76,5 @@ def deploy!
   puts %x[git add .]
   puts %x[git commit -a -m "temporary commit for deployment"]
   puts 'Deploying to Heroku..'
-  puts %x[git push test HEAD:master --force]
+  puts %x[git push heroku HEAD:master --force]
 end
